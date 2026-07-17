@@ -1,6 +1,3 @@
-import pandas as pd
-import numpy as np
-import math
 
 class lquidity_ratio:
 
@@ -132,4 +129,157 @@ class Solvency_ratio:
        else:
         print(f"Interest Coverage Ratio is {interest_coverage:.2f}, indicating a very strong debt-servicing capacity with a substantial margin of safety.")
 
-        
+    def proprietary_ratio(shareholders_equity, total_assets):
+       
+       if total_assets == 0:
+        raise ValueError("Total assets cannot be zero.")
+       if shareholders_equity < 0 or total_assets < 0:
+        raise ValueError("Shareholders' funds and total assets cannot be negative.")
+       
+       proprietary_ratio = shareholders_equity/total_assets
+
+       if proprietary_ratio < 0.30:
+        print(f"Proprietary Ratio is {proprietary_ratio:.2f}, indicating a weak financial position with heavy dependence on external debt.")
+
+       elif 0.30 <= proprietary_ratio < 0.50:
+        print(f"Proprietary Ratio is {proprietary_ratio:.2f}, indicating a fair financial position with a balanced mix of debt and equity financing.")
+
+       elif 0.50 <= proprietary_ratio <= 0.75:
+        print(f"Proprietary Ratio is {proprietary_ratio:.2f}, indicating a healthy financial position with strong shareholders' support.")
+
+       else:
+        print(f"Proprietary Ratio is {proprietary_ratio:.2f}, indicating excellent financial stability and very low dependence on external debt.")
+
+        return proprietary_ratio
+    
+    def capital_gearing_ratio(equity_shareholders_funds,fixed_interest_bearing_funds):
+       if equity_shareholders_funds == 0:
+          raise ValueError("Equity shareholders' funds cannot be zero.")
+       if equity_shareholders_funds < 0:
+           raise ValueError("Equity shareholders' funds cannot be negative.")
+       
+       capital_gearing = fixed_interest_bearing_funds/ equity_shareholders_funds
+       
+       if capital_gearing < 0.5:
+         print(f"Capital Gearing Ratio is {capital_gearing:.2f}, indicating low gearing and a conservative capital structure with low financial risk.")
+
+       elif 0.5 <= capital_gearing < 1:
+         print(f"Capital Gearing Ratio is {capital_gearing:.2f}, indicating a balanced capital structure with moderate financial leverage.")
+
+       elif 1 <= capital_gearing <= 2:
+         print(f"Capital Gearing Ratio is {capital_gearing:.2f}, indicating high gearing. The company relies significantly on fixed-interest capital and should monitor its debt obligations.")
+
+       else:
+        print(f"Capital Gearing Ratio is {capital_gearing:.2f}, indicating very high gearing and increased financial risk due to heavy dependence on fixed-interest financing.")
+
+        return capital_gearing
+    
+class profitability_ratio:
+   
+   def gross_profit_ratio(gross_profit,revenue):
+      if revenue == 0:
+        raise ValueError("Revenue cannot be zero.")
+      
+      result = (gross_profit / revenue) * 100
+
+      if result < 20:
+        print(f"Gross Profit Ratio is {result:.2f}%, indicating low profitability. The company may have high production or operating costs.")
+      elif 20 <= result < 40:
+       print(f"Gross Profit Ratio is {result:.2f}%, indicating a satisfactory profit margin and reasonable cost management.")
+      elif 40 <= result < 60:
+       print(f"Gross Profit Ratio is {result:.2f}%, indicating strong profitability and efficient cost control.")
+      else:
+       print(f"Gross Profit Ratio is {result:.2f}%, indicating excellent profitability. However, such a high margin should be evaluated in the context of the industry.")
+
+       return result
+      
+   def net_profit_ratio(net_profit_after_tex, revenue):
+      result = (net_profit_after_tex / revenue) * 100
+
+      if revenue == 0:
+       raise ValueError("Revenue cannot be zero.")
+
+      if result < 5:
+        print(f"Net Profit Ratio is {result:.2f}%, indicating low profitability. The company retains only a small portion of its revenue as profit.")
+
+      elif 5 <= result < 10:
+       print(f"Net Profit Ratio is {result:.2f}%, indicating satisfactory profitability with room for improvement.")
+
+      elif 10 <= result < 20:
+        print(f"Net Profit Ratio is {result:.2f}%, indicating healthy profitability and efficient overall business operations.")
+
+      else:
+        print(f"Net Profit Ratio is {result:.2f}%, indicating excellent profitability. The company is converting a significant portion of its revenue into net profit.")
+
+      return result
+   
+   def operating_profit_ratio(operating_profit,revenue):
+      if revenue == 0:
+        raise ValueError("Revenue cannot be zero.")
+
+      result = (operating_profit / revenue) * 100
+ 
+      if result < 10:
+       print(f"Operating Profit Ratio is {result:.2f}%, indicating low operating profitability. The company may have high operating expenses or inefficient cost management.")
+
+      elif 10 <= result < 20:
+       print(f"Operating Profit Ratio is {result:.2f}%, indicating satisfactory operating profitability with room for improvement.")
+
+      elif 20 <= result < 30:
+       print(f"Operating Profit Ratio is {result:.2f}%, indicating healthy operating profitability and efficient cost management.")
+
+      else:
+       print(f"Operating Profit Ratio is {result:.2f}%, indicating excellent operating profitability. The company is highly efficient in generating operating income from its revenue.")
+
+      return result
+   
+   def return_on_captial_employeed(ebit,capital_employed):
+      if capital_employed == 0:
+        raise ValueError("Capital employed cannot be zero.")
+      if capital_employed < 0:
+        raise ValueError("Capital employed cannot be negative.")
+
+      result = (ebit / capital_employed) * 100
+
+      if result < 10:
+        print(f"Return on Capital Employed (ROCE) is {result:.2f}%, indicating poor efficiency in generating profits from the capital employed.")
+
+      elif 10 <= result < 15:
+        print(f"Return on Capital Employed (ROCE) is {result:.2f}%, indicating satisfactory efficiency with room for improvement.")
+
+      elif 15 <= result < 20:
+        print(f"Return on Capital Employed (ROCE) is {result:.2f}%, indicating healthy profitability and efficient utilization of capital.")
+
+      else:
+        print(f"Return on Capital Employed (ROCE) is {result:.2f}%, indicating excellent capital efficiency and strong returns on invested capital.")
+
+      return result
+   
+   def return_on_equity(net_profit,shareholders_equity):
+     if shareholders_equity == 0:
+        raise ValueError("Shareholders' equity cannot be zero.")
+     if shareholders_equity < 0:
+        raise ValueError("Shareholders' equity cannot be negative.")
+
+     result = (net_profit / shareholders_equity) * 100
+
+     if result < 10:
+       print(f"Return on Equity (ROE) is {result:.2f}%, indicating low returns for shareholders. The company may not be utilizing shareholders' funds efficiently.")
+
+     elif 10 <= result < 15:
+       print(f"Return on Equity (ROE) is {result:.2f}%, indicating satisfactory returns with scope for improvement.")
+
+     elif 15 <= result < 20:
+       print(f"Return on Equity (ROE) is {result:.2f}%, indicating healthy returns and efficient utilization of shareholders' equity.")
+
+     else:
+       print(f"Return on Equity (ROE) is {result:.2f}%, indicating excellent returns for shareholders and strong financial performance.")
+
+     return result
+      
+
+      
+
+
+
+      
