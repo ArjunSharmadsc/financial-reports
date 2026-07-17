@@ -276,7 +276,26 @@ class profitability_ratio:
        print(f"Return on Equity (ROE) is {result:.2f}%, indicating excellent returns for shareholders and strong financial performance.")
 
      return result
-      
+    
+   def return_on_asset(net_profit, total_assets):
+     if total_assets == 0:
+       raise ValueError("Total assets cannot be zero.")
+
+     result = (net_profit / total_assets) * 100
+
+     if result < 5:
+       print(f"Return on Assets (ROA) is {result:.2f}%, indicating poor asset utilization. The company is generating relatively low profits from its assets.")
+
+     elif 5 <= result < 10:
+       print(f"Return on Assets (ROA) is {result:.2f}%, indicating satisfactory asset utilization with scope for improvement.")
+
+     elif 10 <= result < 15:
+       print(f"Return on Assets (ROA) is {result:.2f}%, indicating healthy profitability and efficient utilization of assets.")
+
+     else:
+       print(f"Return on Assets (ROA) is {result:.2f}%, indicating excellent asset utilization and strong profitability.")
+
+     return result
 
       
 
