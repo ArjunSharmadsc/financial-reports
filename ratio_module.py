@@ -461,5 +461,174 @@ class ActivityRatio:
 
     return result
 
+class MarketCapitalisationRatio:
+   
+   def price_to_earnings_ratio(self, market_price_per_share, earnings_per_share):
+
+    if earnings_per_share == 0:
+        raise ValueError("Earnings per share cannot be zero.")
+
+    if earnings_per_share < 0:
+        raise ValueError("Earnings per share cannot be negative.")
+
+    if market_price_per_share < 0:
+        raise ValueError("Market price per share cannot be negative.")
+
+    result = market_price_per_share / earnings_per_share
+
+    if result < 10:
+        print(f"Price-to-Earnings Ratio is {result:.2f}, indicating the stock may be undervalued or the market has low growth expectations.")
+
+    elif 10 <= result < 20:
+        print(f"Price-to-Earnings Ratio is {result:.2f}, indicating a fairly valued stock with healthy growth expectations.")
+
+    elif 20 <= result < 30:
+        print(f"Price-to-Earnings Ratio is {result:.2f}, indicating high investor confidence and strong future growth expectations.")
+
+    else:
+        print(f"Price-to-Earnings Ratio is {result:.2f}, indicating a very highly valued stock. Investors have strong growth expectations, but the stock may also be overvalued.")
+
+    return result
+   
+   def price_to_book_ratio(self, market_price_per_share, book_value_per_share):
+
+    if book_value_per_share == 0:
+        raise ValueError("Book value per share cannot be zero.")
+
+    if book_value_per_share < 0:
+        raise ValueError("Book value per share cannot be negative.")
+
+    if market_price_per_share < 0:
+        raise ValueError("Market price per share cannot be negative.")
+
+    result = market_price_per_share / book_value_per_share
+
+    if result < 1:
+        print(f"Price-to-Book Ratio is {result:.2f}, indicating the stock may be undervalued or that the market has concerns about the company's future prospects.")
+
+    elif 1 <= result < 3:
+        print(f"Price-to-Book Ratio is {result:.2f}, indicating a fairly valued stock with a healthy market valuation.")
+
+    elif 3 <= result < 5:
+        print(f"Price-to-Book Ratio is {result:.2f}, indicating a premium valuation. Investors expect strong future growth.")
+
+    else:
+        print(f"Price-to-Book Ratio is {result:.2f}, indicating a very high valuation. The stock may be significantly overvalued relative to its book value.")
+
+    return result
+   
+   def dividend_yield_ratio(self, dividend_per_share, market_price_per_share):
+
+    if market_price_per_share == 0:
+        raise ValueError("Market price per share cannot be zero.")
+
+    if dividend_per_share < 0:
+        raise ValueError("Dividend per share cannot be negative.")
+
+    if market_price_per_share < 0:
+        raise ValueError("Market price per share cannot be negative.")
+
+    result = (dividend_per_share / market_price_per_share) * 100
+
+    if result < 2:
+        print(f"Dividend Yield is {result:.2f}%, indicating a low dividend return. The company may be focusing on growth rather than distributing profits.")
+
+    elif 2 <= result < 4:
+        print(f"Dividend Yield is {result:.2f}%, indicating a healthy dividend return and a balanced dividend policy.")
+
+    elif 4 <= result < 6:
+        print(f"Dividend Yield is {result:.2f}%, indicating a strong dividend return, making the stock attractive for income-focused investors.")
+
+    else:
+        print(f"Dividend Yield is {result:.2f}%, indicating a very high dividend return. Investors should assess whether such dividends are sustainable over the long term.")
+
+    return result
+   
+   def dividend_payout_ratio(self, dividend_per_share, earnings_per_share):
+
+    if earnings_per_share == 0:
+        raise ValueError("Earnings per share cannot be zero.")
+
+    if dividend_per_share < 0:
+        raise ValueError("Dividend per share cannot be negative.")
+
+    if earnings_per_share < 0:
+        raise ValueError("Earnings per share cannot be negative.")
+
+    result = (dividend_per_share / earnings_per_share) * 100
+
+    if result < 30:
+        print(f"Dividend Payout Ratio is {result:.2f}%, indicating a conservative dividend policy. The company retains a large portion of its earnings for future growth.")
+
+    elif 30 <= result < 60:
+        print(f"Dividend Payout Ratio is {result:.2f}%, indicating a balanced dividend policy between rewarding shareholders and retaining earnings.")
+
+    elif 60 <= result < 80:
+        print(f"Dividend Payout Ratio is {result:.2f}%, indicating a generous dividend policy. The company distributes a significant portion of its earnings.")
+
+    else:
+        print(f"Dividend Payout Ratio is {result:.2f}%, indicating a very high payout ratio. The sustainability of future dividend payments should be evaluated carefully.")
+
+    return result
+   
+   def earnings_per_share(self, net_profit, preference_dividends, weighted_average_equity_shares):
+
+    if weighted_average_equity_shares == 0:
+        raise ValueError("Weighted average number of equity shares cannot be zero.")
+
+    if net_profit < 0:
+        raise ValueError("Net profit cannot be negative.")
+
+    if preference_dividends < 0:
+        raise ValueError("Preference dividends cannot be negative.")
+
+    if weighted_average_equity_shares < 0:
+        raise ValueError("Weighted average number of equity shares cannot be negative.")
+
+    result = (net_profit - preference_dividends) / weighted_average_equity_shares
+
+    if result < 2:
+        print(f"Earnings Per Share (EPS) is {result:.2f}, indicating relatively low earnings generated for each equity share.")
+
+    elif 2 <= result < 5:
+        print(f"Earnings Per Share (EPS) is {result:.2f}, indicating satisfactory earnings and stable profitability.")
+
+    elif 5 <= result < 10:
+        print(f"Earnings Per Share (EPS) is {result:.2f}, indicating strong profitability and healthy returns for shareholders.")
+
+    else:
+        print(f"Earnings Per Share (EPS) is {result:.2f}, indicating excellent earnings performance and significant value creation for shareholders.")
+
+    return result
+   
+   def market_capitalization_to_sales_ratio(self, market_capitalization, annual_revenue):
+
+    if annual_revenue == 0:
+        raise ValueError("Annual revenue cannot be zero.")
+
+    if market_capitalization < 0:
+        raise ValueError("Market capitalization cannot be negative.")
+
+    if annual_revenue < 0:
+        raise ValueError("Annual revenue cannot be negative.")
+
+    result = market_capitalization / annual_revenue
+
+    if result < 1:
+        print(f"Market Capitalization-to-Sales Ratio is {result:.2f}, indicating the company may be undervalued relative to its revenue.")
+
+    elif 1 <= result < 3:
+        print(f"Market Capitalization-to-Sales Ratio is {result:.2f}, indicating a fair market valuation relative to sales.")
+
+    elif 3 <= result < 5:
+        print(f"Market Capitalization-to-Sales Ratio is {result:.2f}, indicating a premium valuation with strong investor growth expectations.")
+
+    else:
+        print(f"Market Capitalization-to-Sales Ratio is {result:.2f}, indicating a very high market valuation relative to sales. Investors should assess whether the valuation is justified by future growth prospects.")
+
+    return result
+   
+
+
 
       
