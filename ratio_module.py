@@ -313,7 +313,7 @@ class profitabilityRatio:
 class ActivityRatio:
   
   @staticmethod
-  def inventory_turnover_ratio(self, cost_of_goods_sold, average_inventory):
+  def inventory_turnover_ratio( cost_of_goods_sold, average_inventory):
 
     if average_inventory == 0:
         raise ValueError("Average inventory cannot be zero.")
@@ -341,7 +341,7 @@ class ActivityRatio:
     return result
   
   @staticmethod
-  def debtors_turnover_ratio(self, net_credit_sales, average_trade_receivables):
+  def debtors_turnover_ratio(net_credit_sales, average_trade_receivables):
 
     if average_trade_receivables == 0:
         raise ValueError("Average trade receivables cannot be zero.")
@@ -369,7 +369,7 @@ class ActivityRatio:
     return result
   
   @staticmethod
-  def creditors_turnover_ratio(self, net_credit_purchases, average_trade_payables):
+  def creditors_turnover_ratio(net_credit_purchases, average_trade_payables):
 
     if average_trade_payables == 0:
         raise ValueError("Average trade payables cannot be zero.")
@@ -397,7 +397,7 @@ class ActivityRatio:
     return result
   
   @staticmethod
-  def working_capital_turnover_ratio(self, net_sales, working_capital):
+  def working_capital_turnover_ratio(net_sales, working_capital):
 
     if working_capital == 0:
         raise ValueError("Working capital cannot be zero.")
@@ -425,7 +425,7 @@ class ActivityRatio:
     return result
   
   @staticmethod
-  def fixed_asset_turnover_ratio(self, net_sales, average_net_fixed_assets):
+  def fixed_asset_turnover_ratio(net_sales, average_net_fixed_assets):
 
     if average_net_fixed_assets == 0:
         raise ValueError("Average net fixed assets cannot be zero.")
@@ -453,7 +453,7 @@ class ActivityRatio:
     return result
   
   @staticmethod
-  def total_asset_turnover_ratio(self, net_sales, average_total_assets):
+  def total_asset_turnover_ratio(net_sales, average_total_assets):
 
     if average_total_assets == 0:
         raise ValueError("Average total assets cannot be zero.")
@@ -483,7 +483,7 @@ class ActivityRatio:
 class MarketCapitalisationRatio:
    
    @staticmethod
-   def price_to_earnings_ratio(self, market_price_per_share, earnings_per_share):
+   def price_to_earnings_ratio(market_price_per_share, earnings_per_share):
 
     if earnings_per_share == 0:
         raise ValueError("Earnings per share cannot be zero.")
@@ -511,7 +511,7 @@ class MarketCapitalisationRatio:
     return result
    
    @staticmethod
-   def price_to_book_ratio(self, market_price_per_share, book_value_per_share):
+   def price_to_book_ratio(market_price_per_share, book_value_per_share):
 
     if book_value_per_share == 0:
         raise ValueError("Book value per share cannot be zero.")
@@ -539,7 +539,7 @@ class MarketCapitalisationRatio:
     return result
    
    @staticmethod
-   def dividend_yield_ratio(self, dividend_per_share, market_price_per_share):
+   def dividend_yield_ratio(dividend_per_share, market_price_per_share):
 
     if market_price_per_share == 0:
         raise ValueError("Market price per share cannot be zero.")
@@ -567,7 +567,7 @@ class MarketCapitalisationRatio:
     return result
    
    @staticmethod
-   def dividend_payout_ratio(self, dividend_per_share, earnings_per_share):
+   def dividend_payout_ratio(dividend_per_share, earnings_per_share):
 
     if earnings_per_share == 0:
         raise ValueError("Earnings per share cannot be zero.")
@@ -595,7 +595,7 @@ class MarketCapitalisationRatio:
     return result
    
    @staticmethod
-   def earnings_per_share(self, net_profit, preference_dividends, weighted_average_equity_shares):
+   def earnings_per_share(net_profit, preference_dividends, weighted_average_equity_shares):
 
     if weighted_average_equity_shares == 0:
         raise ValueError("Weighted average number of equity shares cannot be zero.")
@@ -626,7 +626,7 @@ class MarketCapitalisationRatio:
     return result
    
    @staticmethod
-   def market_capitalization_to_sales_ratio(self, market_capitalization, annual_revenue):
+   def market_capitalization_to_sales_ratio(market_capitalization, annual_revenue):
 
     if annual_revenue == 0:
         raise ValueError("Annual revenue cannot be zero.")
