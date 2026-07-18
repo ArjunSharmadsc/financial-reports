@@ -1,5 +1,5 @@
 
-class lquidity_ratio:
+class lquidityRatio:
 
     def current_ratio(self,current_asset, current_liability):
         self.current_asset = current_asset
@@ -68,7 +68,7 @@ class lquidity_ratio:
     
        return cr_result
     
-class Solvency_ratio:
+class SolvencyRatio:
 
     def debt_to_equity_ratio(long_term_debt, shareholders_equity):
 
@@ -174,7 +174,7 @@ class Solvency_ratio:
 
         return capital_gearing
     
-class profitability_ratio:
+class profitabilityRatio:
    
    def gross_profit_ratio(gross_profit,revenue):
       if revenue == 0:
@@ -297,8 +297,169 @@ class profitability_ratio:
 
      return result
 
-      
+class ActivityRatio:
+  
+  def inventory_turnover_ratio(self, cost_of_goods_sold, average_inventory):
 
+    if average_inventory == 0:
+        raise ValueError("Average inventory cannot be zero.")
+
+    if average_inventory < 0:
+        raise ValueError("Average inventory cannot be negative.")
+
+    if cost_of_goods_sold < 0:
+        raise ValueError("Cost of goods sold cannot be negative.")
+
+    result = cost_of_goods_sold / average_inventory
+
+    if result < 3:
+        print(f"Inventory Turnover Ratio is {result:.2f}, indicating slow inventory movement. The company may be overstocking or experiencing weak sales.")
+
+    elif 3 <= result < 6:
+        print(f"Inventory Turnover Ratio is {result:.2f}, indicating satisfactory inventory management with a balanced turnover rate.")
+
+    elif 6 <= result < 10:
+        print(f"Inventory Turnover Ratio is {result:.2f}, indicating efficient inventory management and strong sales performance.")
+
+    else:
+        print(f"Inventory Turnover Ratio is {result:.2f}, indicating very high inventory turnover. While this reflects excellent sales efficiency, it may also suggest the risk of stock shortages if inventory levels are too low.")
+
+    return result
+  
+  def debtors_turnover_ratio(self, net_credit_sales, average_trade_receivables):
+
+    if average_trade_receivables == 0:
+        raise ValueError("Average trade receivables cannot be zero.")
+
+    if average_trade_receivables < 0:
+        raise ValueError("Average trade receivables cannot be negative.")
+
+    if net_credit_sales < 0:
+        raise ValueError("Net credit sales cannot be negative.")
+
+    result = net_credit_sales / average_trade_receivables
+
+    if result < 5:
+        print(f"Debtors Turnover Ratio is {result:.2f}, indicating slow collection of receivables. The company may have inefficient credit collection policies.")
+
+    elif 5 <= result < 10:
+        print(f"Debtors Turnover Ratio is {result:.2f}, indicating satisfactory collection efficiency and a healthy credit policy.")
+
+    elif 10 <= result < 15:
+        print(f"Debtors Turnover Ratio is {result:.2f}, indicating efficient collection of receivables and effective credit management.")
+
+    else:
+        print(f"Debtors Turnover Ratio is {result:.2f}, indicating excellent receivables management. However, an excessively high ratio may suggest overly strict credit policies that could limit sales.")
+
+    return result
+  
+  def creditors_turnover_ratio(self, net_credit_purchases, average_trade_payables):
+
+    if average_trade_payables == 0:
+        raise ValueError("Average trade payables cannot be zero.")
+
+    if average_trade_payables < 0:
+        raise ValueError("Average trade payables cannot be negative.")
+
+    if net_credit_purchases < 0:
+        raise ValueError("Net credit purchases cannot be negative.")
+
+    result = net_credit_purchases / average_trade_payables
+
+    if result < 4:
+        print(f"Creditors Turnover Ratio is {result:.2f}, indicating slow payment to suppliers. While this may improve short-term liquidity, consistently delayed payments could affect supplier relationships.")
+
+    elif 4 <= result < 8:
+        print(f"Creditors Turnover Ratio is {result:.2f}, indicating a balanced payment policy and healthy management of trade payables.")
+
+    elif 8 <= result < 12:
+        print(f"Creditors Turnover Ratio is {result:.2f}, indicating prompt payments to suppliers and efficient management of trade payables.")
+
+    else:
+        print(f"Creditors Turnover Ratio is {result:.2f}, indicating very rapid payment to suppliers. Although this reflects strong financial discipline, it may reduce the benefits of available trade credit.")
+
+    return result
+  
+  def working_capital_turnover_ratio(self, net_sales, working_capital):
+
+    if working_capital == 0:
+        raise ValueError("Working capital cannot be zero.")
+
+    if working_capital < 0:
+        raise ValueError("Working capital cannot be negative.")
+
+    if net_sales < 0:
+        raise ValueError("Net sales cannot be negative.")
+
+    result = net_sales / working_capital
+
+    if result < 3:
+        print(f"Working Capital Turnover Ratio is {result:.2f}, indicating inefficient utilization of working capital. The company may not be generating sufficient sales from its working capital.")
+
+    elif 3 <= result < 6:
+        print(f"Working Capital Turnover Ratio is {result:.2f}, indicating satisfactory utilization of working capital and a balanced operating performance.")
+
+    elif 6 <= result < 10:
+        print(f"Working Capital Turnover Ratio is {result:.2f}, indicating efficient utilization of working capital and strong operational efficiency.")
+
+    else:
+        print(f"Working Capital Turnover Ratio is {result:.2f}, indicating excellent utilization of working capital. However, an excessively high ratio may suggest insufficient working capital to support future operations.")
+
+    return result
+  
+  def fixed_asset_turnover_ratio(self, net_sales, average_net_fixed_assets):
+
+    if average_net_fixed_assets == 0:
+        raise ValueError("Average net fixed assets cannot be zero.")
+
+    if average_net_fixed_assets < 0:
+        raise ValueError("Average net fixed assets cannot be negative.")
+
+    if net_sales < 0:
+        raise ValueError("Net sales cannot be negative.")
+
+    result = net_sales / average_net_fixed_assets
+
+    if result < 2:
+        print(f"Fixed Asset Turnover Ratio is {result:.2f}, indicating poor utilization of fixed assets. The company may not be generating sufficient revenue from its investments in fixed assets.")
+
+    elif 2 <= result < 5:
+        print(f"Fixed Asset Turnover Ratio is {result:.2f}, indicating satisfactory utilization of fixed assets and efficient revenue generation.")
+
+    elif 5 <= result < 8:
+        print(f"Fixed Asset Turnover Ratio is {result:.2f}, indicating strong utilization of fixed assets and excellent operational efficiency.")
+
+    else:
+        print(f"Fixed Asset Turnover Ratio is {result:.2f}, indicating exceptional utilization of fixed assets. However, such a high ratio may indicate that the company is operating close to full capacity or may require additional capital investment.")
+
+    return result
+  
+  def total_asset_turnover_ratio(self, net_sales, average_total_assets):
+
+    if average_total_assets == 0:
+        raise ValueError("Average total assets cannot be zero.")
+
+    if average_total_assets < 0:
+        raise ValueError("Average total assets cannot be negative.")
+
+    if net_sales < 0:
+        raise ValueError("Net sales cannot be negative.")
+
+    result = net_sales / average_total_assets
+
+    if result < 0.5:
+        print(f"Total Asset Turnover Ratio is {result:.2f}, indicating poor asset utilization. The company is generating relatively low sales from its total assets.")
+
+    elif 0.5 <= result < 1:
+        print(f"Total Asset Turnover Ratio is {result:.2f}, indicating satisfactory asset utilization with room for improvement.")
+
+    elif 1 <= result < 2:
+        print(f"Total Asset Turnover Ratio is {result:.2f}, indicating efficient utilization of total assets and strong operational performance.")
+
+    else:
+        print(f"Total Asset Turnover Ratio is {result:.2f}, indicating excellent asset utilization. The company is generating a high level of sales from its asset base.")
+
+    return result
 
 
       
