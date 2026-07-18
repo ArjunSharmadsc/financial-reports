@@ -1,14 +1,14 @@
 
 class lquidityRatio:
-
-    def current_ratio(self,current_asset, current_liability):
-        self.current_asset = current_asset
-        self.current_liability = current_liability
+    @staticmethod
+    def current_ratio(current_asset, current_liability):
+        current_asset = current_asset
+        current_liability = current_liability
 
         if current_liability == 0:
             raise ValueError("Current liability cannot be zero.\n")
         
-        result = self.current_asset/self.current_liability
+        result = current_asset/current_liability
 
         if result < 1:
             print( f"current ratio is {result:.2f} which is way to very low and there are liquidity concerns \n" )
@@ -24,14 +24,15 @@ class lquidityRatio:
 
         return result
     
-    def quick_ratio(self, quick_asset, current_liability):
-        self.quick_asset = quick_asset
-        self.current_liability = current_liability
+    @staticmethod
+    def quick_ratio(quick_asset, current_liability):
+        quick_asset = quick_asset
+        current_liability = current_liability
        
         if current_liability == 0:
              raise ValueError("Current liability cannot be zero. \n")
 
-        qr_result = self.quick_asset/ self.current_liability
+        qr_result = quick_asset/current_liability
 
         if qr_result >= 2:
             print( f"quick ratio is {qr_result:.2f}, meaning there is excess cash or receivables  \n " )
@@ -44,6 +45,7 @@ class lquidityRatio:
 
         return qr_result
     
+    @staticmethod
     def cash_ratio(cash,bank,marketable_securities,current_liability):
        cash_and_securities = cash +bank + marketable_securities
        current_liability = current_liability
@@ -69,7 +71,8 @@ class lquidityRatio:
        return cr_result
     
 class SolvencyRatio:
-
+    
+    @staticmethod
     def debt_to_equity_ratio(long_term_debt, shareholders_equity):
 
         if long_term_debt == 0:
@@ -94,6 +97,7 @@ class SolvencyRatio:
 
         return debt_to_equity
 
+    @staticmethod
     def debt_ratio(total_debt, total_assets):
         debt_ratio = total_debt/total_assets
         if debt_ratio < 0.3:
@@ -110,6 +114,7 @@ class SolvencyRatio:
         
         return debt_ratio
     
+    @staticmethod
     def interest_coverage_ratio(ebit,interest_expense):
        if interest_expense == 0:
         raise ValueError("Interest expense cannot be zero.")
@@ -128,7 +133,8 @@ class SolvencyRatio:
 
        else:
         print(f"Interest Coverage Ratio is {interest_coverage:.2f}, indicating a very strong debt-servicing capacity with a substantial margin of safety.")
-
+    
+    @staticmethod
     def proprietary_ratio(shareholders_equity, total_assets):
        
        if total_assets == 0:
@@ -152,6 +158,7 @@ class SolvencyRatio:
 
         return proprietary_ratio
     
+    @staticmethod
     def capital_gearing_ratio(equity_shareholders_funds,fixed_interest_bearing_funds):
        if equity_shareholders_funds == 0:
           raise ValueError("Equity shareholders' funds cannot be zero.")
@@ -176,6 +183,7 @@ class SolvencyRatio:
     
 class profitabilityRatio:
    
+   @staticmethod
    def gross_profit_ratio(gross_profit,revenue):
       if revenue == 0:
         raise ValueError("Revenue cannot be zero.")
@@ -193,6 +201,7 @@ class profitabilityRatio:
 
        return result
       
+   @staticmethod
    def net_profit_ratio(net_profit_after_tex, revenue):
       result = (net_profit_after_tex / revenue) * 100
 
@@ -213,6 +222,7 @@ class profitabilityRatio:
 
       return result
    
+   @staticmethod
    def operating_profit_ratio(operating_profit,revenue):
       if revenue == 0:
         raise ValueError("Revenue cannot be zero.")
@@ -233,6 +243,7 @@ class profitabilityRatio:
 
       return result
    
+   @staticmethod
    def return_on_captial_employeed(ebit,capital_employed):
       if capital_employed == 0:
         raise ValueError("Capital employed cannot be zero.")
@@ -255,6 +266,7 @@ class profitabilityRatio:
 
       return result
    
+   @staticmethod
    def return_on_equity(net_profit,shareholders_equity):
      if shareholders_equity == 0:
         raise ValueError("Shareholders' equity cannot be zero.")
@@ -276,7 +288,8 @@ class profitabilityRatio:
        print(f"Return on Equity (ROE) is {result:.2f}%, indicating excellent returns for shareholders and strong financial performance.")
 
      return result
-    
+   
+   @staticmethod 
    def return_on_asset(net_profit, total_assets):
      if total_assets == 0:
        raise ValueError("Total assets cannot be zero.")
