@@ -1,0 +1,61 @@
+Statement,Line_Item,Note_No,Fiscal_Year,Current_Year_Value,Prior_Year_Value
+Balance_Sheet,(a) Cash and Cash Equivalents,22,FY2024,33028.0,3719.0
+Balance_Sheet,(b) Bank Balance other than (a) above,,FY2024,33.0,90.0
+Balance_Sheet,- Trade Receivables,,FY2024,44.0,649.0
+Balance_Sheet,(d) Investments,55,FY2024,33918.0,44048.0
+Balance_Sheet,(e) Other Financial Assets,66,FY2024,20153.0,144.0
+Balance_Sheet,Tax Assets (Net),88,FY2024,5379.0,5332.0
+Balance_Sheet,Tax Assets (Net),99,FY2024,,
+Balance_Sheet,and Equipment,10,FY2024,8957.0,9187.0
+Balance_Sheet,(d) Right-of-use Assets,,FY2024,11.0,11.0
+Balance_Sheet,(e) Intangible Assets,11,FY2024,11.0,11.0
+Balance_Sheet,Non-Financial Assets,7,FY2024,136.0,45.0
+Balance_Sheet,TOTAL ASSETS,,FY2024,102312.0,63405.0
+Balance_Sheet,and small enterprises,,FY2024,66.0,40.0
+Balance_Sheet,and small enterprises,,FY2024,140.0,641.0
+Balance_Sheet,(b) Borrowings (Other than Debt Securities),13,FY2024,,25671.0
+Balance_Sheet,(d) Lease Liabilities,,FY2024,11.0,22.0
+Balance_Sheet,Financial Liabilities,,FY2024,15.0,268.0
+Balance_Sheet,(a) Provisions,16,FY2024,66.0,66.0
+Balance_Sheet,Liabilities (Net),99,FY2024,,
+Balance_Sheet,(c) Other Non-Financial Liabilities,17,FY2024,67.0,68.0
+Balance_Sheet,(a) Equity Share Capital,,FY2024,18.0,100.0
+Balance_Sheet,(b) Other Equity,19,FY2024,101724.0,-62376.0
+Balance_Sheet,EgUITY,,FY2024,102312.0,63405.0
+Profit_and_Loss,(ii) Dividend Income*,,FY2024,,100.0
+Profit_and_Loss,(I) Total Revenue from Operations,,FY2024,1344.0,1932.0
+Profit_and_Loss,(III) Total Income (I+II),,FY2024,1347.0,2143.0
+Profit_and_Loss,Financial Instruments (Net),23,FY2024,1355.0,194.0
+Profit_and_Loss,(IV) Total Expenses (IV),,FY2024,3201.0,2419.0
+Profit_and_Loss,Tax (III-IV),,FY2024,-1854.0,-276.0
+Profit_and_Loss,cancellation of investment,,FY2024,50000.0,
+Profit_and_Loss,Profit/(Loss) Before Tax,,FY2024,48146.0,-276.0
+Profit_and_Loss,(a) Current TaxTax,,FY2024,,
+Profit_and_Loss,(b) Income Tax in respect of earlier year,,FY2024,20.0,55.0
+Profit_and_Loss,(c) Deferred Tax Tax,,FY2024,,
+Profit_and_Loss,Profit/(Loss) after Tax,,FY2024,48126.0,-281.0
+Profit_and_Loss,(a) Remeasurement Gains/(Losses) on on Defined Benefit Plan,,FY2024,11.0,24.0
+Profit_and_Loss,(b) Gains/(Losses) onon Equity Instruments through Other Comprehensive Income,,FY2024,-8851.0,15602.0
+Profit_and_Loss,Tax related to above,,FY2024,,
+Profit_and_Loss,Total Other Comprehensive Income/(Expense) (X),,FY2024,-8850.0,15626.0
+Profit_and_Loss,X),,FY2024,39276.0,15345.0
+Cash_Flow,Prolit/(Loss) Before TaxTax,,FY2024,48146.0,-276.0
+Cash_Flow,on Income Tax Refund,,FY2024,,-149.0
+Cash_Flow,No Longer Required written back,,FY2024,-2.0,-58.0
+Cash_Flow,Impairment on Financial Instruments (Net),,FY2024,1355.0,194.0
+Cash_Flow,Foreign exchange (Gain)/Loss,,FY2024,,-2.0
+Cash_Flow,cancellation of investment,,FY2024,-50000.0,
+Cash_Flow,profit/(loss) before working capital changes,,FY2024,-267.0,-56.0
+Cash_Flow,(Increase)/Decrease in Trade Receivables and and Others Assets,,FY2024,29740.0,755.0
+Cash_Flow,Increase/(Decrease) in Trade Payables and and Others Liabilities,,FY2024,-340.0,-790.0
+Cash_Flow,Cash generated/(used) in operations,,FY2024,29308.0,-103.0
+Cash_Flow,Refund/(Paid),,FY2024,-67.0,2774.0
+Cash_Flow,and Intangible Assets,,FY2024,-2.0,
+Cash_Flow,in)/generated mom,,FY2024,-2.0,
+Cash_Flow,(Repayment of)/Proceeds from intercorporate deposit,,FY2024,,-52.0
+Cash_Flow,Net Increase/(Decrease) in Cash and Cash Equivalents,,FY2024,29309.0,2619.0
+Cash_Flow,the year,,FY2024,3719.0,1100.0
+Cash_Flow,the year,,FY2024,33028.0,3719.0
+Cash_Flow,(a) Cash on hand,,FY2024,,
+Cash_Flow,(b) Balances with Banks - in Current Account,,FY2024,259.0,106.0
+Cash_Flow,(c) Fixed Deposits with original maturity period less than three months,,FY2024,32769.0,3613.0

@@ -1,0 +1,77 @@
+Statement,Line_Item,Note_No,Fiscal_Year,Current_Year_Value,Prior_Year_Value
+Balance_Sheet,(a) Cash and Cash Equivalents,2,FY2023,3719.0,1100.0
+Balance_Sheet,(b) Bank Balance other than (a) above,3,FY2023,265.0,253.0
+Balance_Sheet,- Trade Receivables,4,FY2023,663.0,1078.0
+Balance_Sheet,(d) Investments,5,FY2023,44048.0,28446.0
+Balance_Sheet,(e) Other Financial Assets,6,FY2023,144.0,566.0
+Balance_Sheet,(a) Current Tax Assets (Net),8,FY2023,5332.0,7960.0
+Balance_Sheet,(b) Deferred Tax Assets (Net),9,FY2023,,
+Balance_Sheet,"(c) Property, Plant and Equipment",10,FY2023,9187.0,9421.0
+Balance_Sheet,(d) Right-of-use Assets,,FY2023,1.0,1.0
+Balance_Sheet,(e) Intangible Assets,11,FY2023,1.0,3.0
+Balance_Sheet,(f) Other Non-Financial Assets,7,FY2023,45.0,157.0
+Balance_Sheet,TOTAL ASSETS,,FY2023,63405.0,48985.0
+Balance_Sheet,(i) Total outstanding dues of micro enterprises and small enterprises,,FY2023,40.0,35.0
+Balance_Sheet,(ii) Total outstanding dues of creditors other than micro enterprises and small enterprises,,FY2023,641.0,1100.0
+Balance_Sheet,(b) Borrowings (Other than Debt Securities),13,FY2023,25671.0,25723.0
+Balance_Sheet,(c) Subordinated Liabilities,14,FY2023,33000.0,33000.0
+Balance_Sheet,(d) Lease Liabilities,,FY2023,2.0,2.0
+Balance_Sheet,(e) Other Financial Liabilities,15,FY2023,16044.0,16377.0
+Balance_Sheet,(a) Provisions,16,FY2023,6.0,12.0
+Balance_Sheet,(b) Deferred Tax Liabilities (Net),9,FY2023,,
+Balance_Sheet,(c) Other Non-Financial Liabilities,17,FY2023,68.0,148.0
+Balance_Sheet,(a) Equity Share Capital,18,FY2023,50309.0,50309.0
+Balance_Sheet,(b) Other Equity,19,FY2023,-62376.0,-77721.0
+Balance_Sheet,TOTAL LIABILITIES AND EQUITY,,FY2023,63405.0,48985.0
+Profit_and_Loss,(i) Interest Income,20,FY2023,139.0,14.0
+Profit_and_Loss,(ii) Dividend Income*,,FY2023,100.0,0.0
+Profit_and_Loss,(iii) Rental Income,,FY2023,403.0,396.0
+Profit_and_Loss,(iv) Fees and Commission Income,,FY2023,1290.0,2361.0
+Profit_and_Loss,(I) Total Revenue from Operations,,FY2023,1932.0,2771.0
+Profit_and_Loss,(II) Other Income,21,FY2023,211.0,459.0
+Profit_and_Loss,(III) Total Income (I+II),,FY2023,2143.0,3230.0
+Profit_and_Loss,(I) Finance Costs,22,FY2023,19.0,158.0
+Profit_and_Loss,(ii) Fees and Commission Expense,,FY2023,764.0,1849.0
+Profit_and_Loss,(iii) Impairment on Financial Instruments (Net),23,FY2023,194.0,457.0
+Profit_and_Loss,(iv) Employee Benefits Expenses,24,FY2023,276.0,484.0
+Profit_and_Loss,"(vi) Depreciation, Amortisation and Impairment Expense","10,11",FY2023,235.0,613.0
+Profit_and_Loss,(vi) Administrative and Other Expenses,25,FY2023,931.0,1022.0
+Profit_and_Loss,(IV) Total Expenses (IV),,FY2023,2419.0,4583.0
+Profit_and_Loss,(V) Profit / (Loss) Before Exceptional items and Tax (III-IV),,FY2023,-276.0,-1353.0
+Profit_and_Loss,(VI) Exceptional items,,FY2023,,
+Profit_and_Loss,(VII) Profit / (Loss) Before Tax (V-VI),,FY2023,-276.0,-1353.0
+Profit_and_Loss,(a) Current Tax,,FY2023,,
+Profit_and_Loss,(b) Income Tax in respect of earlier year,,FY2023,5.0,-2926.0
+Profit_and_Loss,(c) Deferred Tax,,FY2023,,
+Profit_and_Loss,(IX) Profit / (Loss) after Tax (XIII-XIV),,FY2023,-281.0,1573.0
+Profit_and_Loss,(a) Remeasurement Gains / (Losses) on Defined Benefit Plan,,FY2023,24.0,23.0
+Profit_and_Loss,(b) Gains / (Losses) on Equity Instruments through Other Comprehensive Income,,FY2023,15602.0,-32730.0
+Profit_and_Loss,(ii) Tax related to above,,FY2023,,
+Profit_and_Loss,Total Other Comprehensive Income / (Expense) (XVI),,FY2023,15626.0,-32707.0
+Profit_and_Loss,(XI) Total Comprehensive Income / (Expense) (XV + XVI),,FY2023,15345.0,-31134.0
+Profit_and_Loss,- Basic and Diluted Earnings per Equity share,,FY2023,-0.06,0.31
+Cash_Flow,Profit / (Loss) Before Tax,,FY2023,-276.0,-1353.0
+Cash_Flow,Interest on Income Tax Refund,,FY2023,-149.0,-207.0
+Cash_Flow,Liabilities No Longer Required written back,,FY2023,-58.0,-237.0
+Cash_Flow,Impairment on Financial Instruments (Net),,FY2023,194.0,457.0
+Cash_Flow,Foreign exchange (Gain) / Loss,,FY2023,-2.0,
+Cash_Flow,"Depreciation, Amortisation and Impairment",,FY2023,235.0,613.0
+Cash_Flow,Operating profit / (loss) before working capital changes,,FY2023,-56.0,-727.0
+Cash_Flow,(Increase) / Decrease in Trade Receivables and Others Assets,,FY2023,755.0,-715.0
+Cash_Flow,Increase / (Decrease) in Trade Payables and Others Liabilities,,FY2023,-790.0,-1266.0
+Cash_Flow,Increase / (Decrease) in Other Bank Balances,,FY2023,-12.0,1745.0
+Cash_Flow,Cash generated / (used) in operations,,FY2023,-103.0,-963.0
+Cash_Flow,Direct Taxes Refund / (Paid),,FY2023,2774.0,2661.0
+Cash_Flow,Net Cash (used in) / generated from Operating Activities,,FY2023,2671.0,1698.0
+Cash_Flow,"Purchase of Property, Plant and Equipment, and Intangible Assets",,FY2023,,-1.0
+Cash_Flow,(Increase) / Decrease in Investments (Other than Subsidiaries),,FY2023,,9.0
+Cash_Flow,Net Cash (used in) / generated from Investing Activities,,FY2023,,8.0
+Cash_Flow,(Repayment of) / Proceeds from intercorporate deposit,,FY2023,-52.0,-2331.0
+Cash_Flow,Dividend Paid (including Corporate Dividend Tax),,FY2023,,-6.0
+Cash_Flow,Net Cash (used in) / generated from Financing Activities,,FY2023,-52.0,-2337.0
+Cash_Flow,Net Increase / (Decrease) in Cash and Cash Equivalents,,FY2023,2619.0,-631.0
+Cash_Flow,Cash and Cash Equivalents at the beginning of the year,,FY2023,1100.0,1731.0
+Cash_Flow,Cash and Cash Equivalents at the end of the year,,FY2023,3719.0,1100.0
+Cash_Flow,(a) Cash on hand,,FY2023,0.0,0.0
+Cash_Flow,(b) Balances with Banks - in Current Account,,FY2023,106.0,599.0
+Cash_Flow,(c) Fixed Deposits with original maturity period less than three months,,FY2023,3613.0,501.0

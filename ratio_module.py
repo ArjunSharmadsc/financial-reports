@@ -1,5 +1,5 @@
 
-class lquidityRatio:
+class LiquidityRatio:
     @staticmethod
     def current_ratio(current_asset, current_liability):
         current_asset = current_asset
@@ -74,9 +74,6 @@ class SolvencyRatio:
     
     @staticmethod
     def debt_to_equity_ratio(long_term_debt, shareholders_equity):
-
-        if long_term_debt == 0:
-           raise ValueError("Current liability cannot be zero. \n")
         
         if shareholders_equity == 0:
            raise ValueError("Shareholders' equity cannot be zero.")
@@ -133,12 +130,15 @@ class SolvencyRatio:
 
        else:
         print(f"Interest Coverage Ratio is {interest_coverage:.2f}, indicating a very strong debt-servicing capacity with a substantial margin of safety.")
+      
+       return interest_coverage
     
     @staticmethod
     def proprietary_ratio(shareholders_equity, total_assets):
        
        if total_assets == 0:
         raise ValueError("Total assets cannot be zero.")
+       
        if shareholders_equity < 0 or total_assets < 0:
         raise ValueError("Shareholders' funds and total assets cannot be negative.")
        
@@ -156,7 +156,7 @@ class SolvencyRatio:
        else:
         print(f"Proprietary Ratio is {proprietary_ratio:.2f}, indicating excellent financial stability and very low dependence on external debt.")
 
-        return proprietary_ratio
+       return proprietary_ratio
     
     @staticmethod
     def capital_gearing_ratio(equity_shareholders_funds,fixed_interest_bearing_funds):
@@ -179,9 +179,9 @@ class SolvencyRatio:
        else:
         print(f"Capital Gearing Ratio is {capital_gearing:.2f}, indicating very high gearing and increased financial risk due to heavy dependence on fixed-interest financing.")
 
-        return capital_gearing
+       return capital_gearing
     
-class profitabilityRatio:
+class ProfitabilityRatio:
    
    @staticmethod
    def gross_profit_ratio(gross_profit,revenue):
@@ -199,7 +199,7 @@ class profitabilityRatio:
       else:
        print(f"Gross Profit Ratio is {result:.2f}%, indicating excellent profitability. However, such a high margin should be evaluated in the context of the industry.")
 
-       return result
+      return result
       
    @staticmethod
    def net_profit_ratio(net_profit_after_tex, revenue):
@@ -599,9 +599,6 @@ class MarketCapitalisationRatio:
 
     if weighted_average_equity_shares == 0:
         raise ValueError("Weighted average number of equity shares cannot be zero.")
-
-    if net_profit < 0:
-        raise ValueError("Net profit cannot be negative.")
 
     if preference_dividends < 0:
         raise ValueError("Preference dividends cannot be negative.")

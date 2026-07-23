@@ -1,0 +1,112 @@
+Statement,Line_Item,Note_No,Fiscal_Year,Current_Year_Value,Prior_Year_Value
+Balance_Sheet,ASSETS,,FY2025,,
+Balance_Sheet,(1) Financial As sets,,FY2025,,
+Balance_Sheet,(a) Cash and Cas h Equivalents,2,FY2025,20184.0,33028.0
+Balance_Sheet,(b) Bank Balance other than (a) a bove,3,FY2025,94.0,90.0
+Balance_Sheet,(c) Receivables,,FY2025,,
+Balance_Sheet,- Trade Recei vables,4,FY2025,235.0,649.0
+Balance_Sheet,(d) Investments,5,FY2025,46714.0,33918.0
+Balance_Sheet,(e) Other Financi al Assets,6,FY2025,22594.0,20153.0
+Balance_Sheet,(2) Non-Financi al Assets,,FY2025,,
+Balance_Sheet,(a) Current Tax A ssets (Net),8,FY2025,5611.0,5379.0
+Balance_Sheet,(b) Deferred Tax Assets (Net),9,FY2025,,
+Balance_Sheet,"(c) Property, Pla nt and Equipmen t",10,FY2025,7454.0,8957.0
+Balance_Sheet,(d) Right-of-use Assets,46,FY2025,344.0,1.0
+Balance_Sheet,(e) Intangible As sets,11(a),FY2025,,1.0
+Balance_Sheet,(f) Intangible As sets Under Deve lopment,11(b),FY2025,632.0,
+Balance_Sheet,(g) Other Non-Fi nancial Assets,7,FY2025,339.0,136.0
+Balance_Sheet,(3) Non-Current Asset Held For S ale,12,FY2025,1424.0,
+Balance_Sheet,TOTAL ASSETS,,FY2025,105625.0,102312.0
+Balance_Sheet,LIABILITIES AND EQUITY,,FY2025,,
+Balance_Sheet,LIABILITIES,,FY2025,,
+Balance_Sheet,(1) Financial Lia bilities,,FY2025,,
+Balance_Sheet,(a) Trade Payabl es,13,FY2025,,
+Balance_Sheet,(i) Total out standing dues of micro enterprises and small enterprises,,FY2025,,6.0
+Balance_Sheet,(ii) Total out standing dues of creditors other tha n micro enterprises and sma ll enterprises,,FY2025,168.0,140.0
+Balance_Sheet,(b) Borrowings ( Other than Debt Securities),14,FY2025,,
+Balance_Sheet,(c) Subordinated Liabilities,15,FY2025,,
+Balance_Sheet,(d) Lease Liabilit ies,46,FY2025,331.0,1.0
+Balance_Sheet,(e) Other Financi al Liabilities,16,FY2025,415.0,268.0
+Balance_Sheet,(2) Non-Financi al Liabilities,,FY2025,,
+Balance_Sheet,(a) Provisions,17,FY2025,89.0,6.0
+Balance_Sheet,(b) Deferred Tax Liabilities (Net),9,FY2025,,
+Balance_Sheet,(c) Other Non-Fi nancial Liabilities,18,FY2025,125.0,67.0
+Balance_Sheet,(3) Equity,,FY2025,,
+Balance_Sheet,(a) Equity Share Capital,19,FY2025,100.0,100.0
+Balance_Sheet,(b) Other Equity,20,FY2025,104397.0,101724.0
+Balance_Sheet,TOTAL LIABI LITIES AND EQU ITY,,FY2025,105625.0,102312.0
+Profit_and_Loss,Reve nue from Operations,,FY2025,,
+Profit_and_Loss,(i) Interest Income,21,FY2025,1535.0,220.0
+Profit_and_Loss,(ii) Rental Income,,FY2025,151.0,355.0
+Profit_and_Loss,(iii) Fees and Commissio n Income,,FY2025,315.0,769.0
+Profit_and_Loss,(iv) Profit on Investment in Scheme of Mutual Fund,22,FY2025,58.0,
+Profit_and_Loss,(v) Net gain on fair value changes,22,FY2025,992.0,
+Profit_and_Loss,(I) Total Revenue from Operations,,FY2025,3051.0,1344.0
+Profit_and_Loss,(II) Other Income,23,FY2025,275.0,3.0
+Profit_and_Loss,(III) Total Income (I+II),,FY2025,3325.0,1347.0
+Profit_and_Loss,Expenses,,FY2025,,
+Profit_and_Loss,(i) Finance Costs,24,FY2025,15.0,3.0
+Profit_and_Loss,(ii) Fees and Commissio n Expense,,FY2025,267.0,425.0
+Profit_and_Loss,(iii) Bad Debt / Impairme nt on Financia l Instruments (Net),25,FY2025,-224.0,1355.0
+Profit_and_Loss,(iv) Employee Benefits Ex penses,26,FY2025,1748.0,226.0
+Profit_and_Loss,"(v) Depreciation, Amorti sation and Im pairment Expe nse","10,11",FY2025,271.0,234.0
+Profit_and_Loss,(vi) Administrative and O ther Expenses,27,FY2025,1212.0,958.0
+Profit_and_Loss,(IV) Total Expenses (IV),,FY2025,3289.0,3201.0
+Profit_and_Loss,(V) Profit / (Loss) Before Exceptional items and Tax (III-IV),,FY2025,36.0,-1854.0
+Profit_and_Loss,(VI) Exceptional items,23.1,FY2025,10000.0,50000.0
+Profit_and_Loss,(VII) Profit / (Loss) Before Tax (V-VI),,FY2025,10036.0,48146.0
+Profit_and_Loss,(VIII) Tax:,,FY2025,,
+Profit_and_Loss,(a) Current Tax,,FY2025,,
+Profit_and_Loss,(b) Income Tax in r espect of earli er year,,FY2025,3.0,20.0
+Profit_and_Loss,(c) Deferred Tax,,FY2025,,
+Profit_and_Loss,(IX) Profit / (Loss) after T ax (VII-VIII),,FY2025,10033.0,48126.0
+Profit_and_Loss,(X) Other Comprehensiv e Income / (E xpense),,FY2025,,
+Profit_and_Loss,(i) Items that will not be reclassifie d to Profit or L oss,,FY2025,,
+Profit_and_Loss,(a) Remeasurement Gains / (Losse s) on Defined Benefit Plan,,FY2025,-34.0,1.0
+Profit_and_Loss,(b) Gains / (Losses) on Equity Inst ruments throu gh Other Comprehensive In come,,FY2025,-7326.0,-8851.0
+Profit_and_Loss,(ii) Tax related to abo ve,,FY2025,,
+Profit_and_Loss,Total Other Compreh ensive Incom e / (Expense) (X),,FY2025,-7360.0,-8850.0
+Profit_and_Loss,(XI) Total Comprehensiv e Income / (E xpense) (IX+X),,FY2025,2673.0,39276.0
+Profit_and_Loss,(XII) Earnings per Equity Share (Face v alue of ` 1/- e ach)(Previous year ` 10/- each),28,FY2025,,
+Profit_and_Loss,- Basic and Diluted Earnings per Equity share,,FY2025,100.33,13.35
+Cash_Flow,A. Cash Flows from Op erating Activit ies,,FY2025,,
+Cash_Flow,Profit / (Loss) Before Tax,,FY2025,10036.0,48146.0
+Cash_Flow,Adjustments for :,,FY2025,,
+Cash_Flow,Liabilities No Longer Required writt en back,,FY2025,-1.0,-2.0
+Cash_Flow,Finance Cost,,FY2025,15.0,3.0
+Cash_Flow,Finance Income,,FY2025,-2.0,
+Cash_Flow,Impairment on Finan cial Instrumen ts (Net),,FY2025,-224.0,1355.0
+Cash_Flow,Profit on Investment in Scheme of Mutual Fund,,FY2025,-58.0,
+Cash_Flow,Net gain on fair value changes,,FY2025,-992.0,
+Cash_Flow,Claim For Business R ationalisation Cost,,FY2025,-10000.0,-50000.0
+Cash_Flow,"Depreciation, Amorti sation and Imp airment",,FY2025,271.0,234.0
+Cash_Flow,Operating profit / (lo ss) before wo rking capital changes,,FY2025,-954.0,-264.0
+Cash_Flow,Changes in Working Capital,,FY2025,,
+Cash_Flow,Adjustments for :,,FY2025,,
+Cash_Flow,(Increase) / Decrease in Trade Rece ivables and O thers Assets,,FY2025,7769.0,29740.0
+Cash_Flow,Increase / (Decrease) in Trade Paya bles and Oth ers Liabilities,,FY2025,344.0,-340.0
+Cash_Flow,Increase/ (Decrease) in Other Bank Balances,,FY2025,4.0,175.0
+Cash_Flow,Cash generated / (us ed) in operati ons,,FY2025,7163.0,29311.0
+Cash_Flow,Direct Taxes Refund / (Paid),,FY2025,-233.0,-67.0
+Cash_Flow,Net Cash (used in) / generated fro m Operating Activities,,FY2025,6930.0,29244.0
+Cash_Flow,B. Cash Flows from Inv esting Activiti es],,FY2025,,
+Cash_Flow,"Purchase of Property , Plant and Eq uipment, and Intangible Assets",,FY2025,-160.0,-2.0
+Cash_Flow,Intangible Assets Un der Developme nt,,FY2025,-632.0,
+Cash_Flow,Profit on Sale of Righ t Entitlement,,FY2025,139.0,
+Cash_Flow,(Increase) / Decrease in Investmen ts (Other than Subsidiaries),,FY2025,-19072.0,
+Cash_Flow,Net Cash (used in) / generated fro m Investing Activities,,FY2025,-19725.0,-2.0
+Cash_Flow,C. Cash Flows from Fin ancing Activit ies,,FY2025,,
+Cash_Flow,Increase / (Decrease) in Equity Sha re Capital,,FY2025,,70.0
+Cash_Flow,Repayment of Lease,,FY2025,-34.0,
+Cash_Flow,Finance Cost on Leas e,,FY2025,-15.0,-3.0
+Cash_Flow,Net Cash (used in) / generated fro m Financing Activities,,FY2025,-49.0,67.0
+Cash_Flow,Net Increase / (Decr ease) in Cash and Cash Eq uivalents,,FY2025,-12845.0,29309.0
+Cash_Flow,Cas h and Cash Equivale nts at the beg inning of the year,,FY2025,33028.0,3719.0
+Cash_Flow,Cas h and Cash Equivale nts at the end of the year,,FY2025,20184.0,33028.0
+Cash_Flow,Cas h and Cash Equivale nts at the end of the year c omprises of:,,FY2025,,
+Cash_Flow,P articulars,"Note
+No. Ma",FY2025,,31202.0
+Cash_Flow,Cas h and Cash Equivale nts at the end of the year,,FY2025,,
+Cash_Flow,(a) Cash on hand,,FY2025,,
+Cash_Flow,(b) Balances with Banks - in Current A ccount,,FY2025,161.0,259.0
+Cash_Flow,(c) Fixed Deposits with o riginal maturit y period less than three months,,FY2025,20023.0,32769.0

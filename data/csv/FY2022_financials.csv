@@ -1,0 +1,109 @@
+Statement,Line_Item,Note_No,Fiscal_Year,Current_Year_Value,Prior_Year_Value
+Balance_Sheet,ASSETS,,FY2022,,
+Balance_Sheet,(1) Financial As sets,,FY2022,,
+Balance_Sheet,(a) Cash an d Cash Equivale nts‘,2,FY2022,1100.0,1731.0
+Balance_Sheet,(b) Bank Ba lance other than (a) above,3,FY2022,253.0,1998.0
+Balance_Sheet,(c) Receiva bles,,FY2022,,
+Balance_Sheet,(I) Tra de Receivables,4,FY2022,1078.0,1204.0
+Balance_Sheet,(d) Investm ents,5,FY2022,28446.0,61185.0
+Balance_Sheet,(e) Other Fi nancial Assets,6,FY2022,553.0,496.0
+Balance_Sheet,(2) Non-Financ ial Assets,,FY2022,,
+Balance_Sheet,(a) Current Tax Assets (Net),8,FY2022,7960.0,7488.0
+Balance_Sheet,(b) Deferre d Tax Assets (Ne t),9,FY2022,,
+Balance_Sheet,"(c) Propert y, Plant and Equ ipm ent",10,FY2022,9421.0,9655.0
+Balance_Sheet,(d) Right-of -use Assets,,FY2022,1.0,1775.0
+Balance_Sheet,(e) Intangib le Assets,11,FY2022,3.0,4.0
+Balance_Sheet,(f) Other N on-Financial Ass ets,7,FY2022,162.0,213.0
+Balance_Sheet,TOTAL ASSETS,,FY2022,48977.0,85749.0
+Balance_Sheet,LIABILITIES AND EQUITY,,FY2022,,
+Balance_Sheet,LIABILITIES,,FY2022,,
+Balance_Sheet,(1) Financial Li abilities,,FY2022,,
+Balance_Sheet,(a) Trade Pa yables,12,FY2022,,
+Balance_Sheet,(i) Tot al outstanding d ues of micro en terpr ises and small enterprises,,FY2022,35.0,14.0
+Balance_Sheet,(ii) Tot al outstanding d ues of creditors othe r than micro e nterprises and small enterprises,,FY2022,1100.0,367.0
+Balance_Sheet,(b) Borrowi ngs (Other than Deb t Securitie s),13,FY2022,25723.0,28055.0
+Balance_Sheet,(c) Subordi nated Liabilities,14,FY2022,33000.0,33000.0
+Balance_Sheet,(d) Lease Li abilities,,FY2022,2.0,1994.0
+Balance_Sheet,(e) Other Fi nancial Liabilitie s,15,FY2022,16377.0,18351.0
+Balance_Sheet,(2) Non-Financ ial Liabilities,,FY2022,,
+Balance_Sheet,(a) Provisio ns,16,FY2022,4.0,51.0
+Balance_Sheet,(b) Deferre d Tax Liabilities ( Net),9,FY2022,,
+Balance_Sheet,(c) Other N on-Financial Lia biliti es,17,FY2022,148.0,195.0
+Balance_Sheet,(3) Equity,,FY2022,,
+Balance_Sheet,(a) Equity Share Capital,18,FY2022,50309.0,50309.0
+Balance_Sheet,(b) Other Equity,19,FY2022,-77721.0,-46587.0
+Balance_Sheet,TOTAL LIABILITIE S AND EQUITY,,FY2022,48977.0,85749.0
+Profit_and_Loss,"Particulars Note
+No. As at
+March 31, 2022",,FY2022,31.0,2021.0
+Profit_and_Loss,(i) Interest Income 20,,FY2022,14.0,28.0
+Profit_and_Loss,(ii) Dividend Income*,,FY2022,0.0,0.0
+Profit_and_Loss,(iii) Rental Income,,FY2022,396.0,1391.0
+Profit_and_Loss,(iv) Fees and Commission Income,,FY2022,2361.0,2494.0
+Profit_and_Loss,(v) Net gain on fair value changes 21,,FY2022,,3.0
+Profit_and_Loss,(vi) Net gain on derecognition of fin ancial inst ruments under amortised cost,,FY2022,,274.0
+Profit_and_Loss,(I) Total Revenue from Operation s,,FY2022,2771.0,4190.0
+Profit_and_Loss,(II) Other Income 22,,FY2022,459.0,811.0
+Profit_and_Loss,(III) Total Income (I+II),,FY2022,3230.0,5001.0
+Profit_and_Loss,(i) Finance Costs 23,,FY2022,158.0,3282.0
+Profit_and_Loss,(ii) Fees and Commission Expense,,FY2022,1849.0,1178.0
+Profit_and_Loss,(iv) Impairment on Financial Instrum ents (Net ) 24,,FY2022,457.0,1472.0
+Profit_and_Loss,(v) Employee Benefits Expenses 25,,FY2022,484.0,813.0
+Profit_and_Loss,"(vi) Depreciation, Amortisation and I mpairme nt Expense 10,11",,FY2022,613.0,773.0
+Profit_and_Loss,(vii) Administrative and Other Expens es 26,,FY2022,1022.0,1000.0
+Profit_and_Loss,(IV) Total Expenses (IV),,FY2022,4583.0,8518.0
+Profit_and_Loss,(V) Profit / (Loss) Before Exceptional items and Tax (III-IV),,FY2022,-1353.0,-3517.0
+Profit_and_Loss,(VI) Exceptional items,,FY2022,,310455.0
+Profit_and_Loss,(VII) Profit / (Loss) Before Tax (V-VI),,FY2022,-1353.0,-313972.0
+Profit_and_Loss,(a) Current Tax,,FY2022,,
+Profit_and_Loss,(b) Income Tax in respect of earl ier year,,FY2022,-2926.0,-54.0
+Profit_and_Loss,(c) Deferred Tax,,FY2022,,-19446.0
+Profit_and_Loss,(IX) Profit/ (Loss) after Tax (VII-VIII),,FY2022,1573.0,-294472.0
+Profit_and_Loss,(X) Other Comprehensive Income/ (Expense,,FY2022,,
+Profit_and_Loss,(i) Items that will not be reclass ified to Pr,,FY2022,,
+Profit_and_Loss,(a) Remeasurement Gains/ (Losses) o n Defined Benefit Plan,,FY2022,23.0,29.0
+Profit_and_Loss,(b) Gains/ (Losses) on Equit y Instrum ents through Other Comprehensive Income,,FY2022,-32730.0,17627.0
+Profit_and_Loss,(ii) Tax related to above,,FY2022,,-3729.0
+Profit_and_Loss,Total Other Comprehensive Inc ome/(Ex pense) (X),,FY2022,-32707.0,13927.0
+Profit_and_Loss,(XI) Total Comprehensive Income/( Expense) (IX+X),,FY2022,-31134.0,-280545.0
+Profit_and_Loss,(XII) Earnings per Equity Share (Face value of ¹ 10/- each),,FY2022,27.0,
+Profit_and_Loss,– Basic and Diluted Earnings p er Equity share,,FY2022,0.31,-58.53
+Cash_Flow,A. Cash Flows fr om Opera,,FY2022,,
+Cash_Flow,Profit/ (Loss) Before Tax,,FY2022,-1353.0,-313972.0
+Cash_Flow,Adjustments f,,FY2022,,
+Cash_Flow,"Net (gain) / los s on derec ognition of Proper ty, Plant and Eq uipment",,FY2022,,
+Cash_Flow,Interest on Inc ome Tax R efund,,FY2022,-207.0,-791.0
+Cash_Flow,Liabilities No L onger Req uired written back,,FY2022,-237.0,-7.0
+Cash_Flow,Impairment on Financial Instruments (Net),,FY2022,457.0,1472.0
+Cash_Flow,Exceptional ite ms,,FY2022,,310455.0
+Cash_Flow,"Depreciation, Amortisati on and Impairmen t",,FY2022,613.0,773.0
+Cash_Flow,Operating pr ofit before working capital changes,,FY2022,-727.0,-2070.0
+Cash_Flow,Changes in W orking Ca,,FY2022,,
+Cash_Flow,Adjustments f,,FY2022,,
+Cash_Flow,(Increase) / De crease in T rade Receivables a nd Others Asset s,,FY2022,-715.0,-591.0
+Cash_Flow,Increase / (Dec rease) in T rade Payables and Others Liabilitie s,,FY2022,-1266.0,16362.0
+Cash_Flow,Increase/ (Dec rease) in O ther Bank Balance s,,FY2022,1745.0,-1695.0
+Cash_Flow,Cash generat ed / (used ) in operations,,FY2022,-963.0,12006.0
+Cash_Flow,Direct Taxes Re fund/ (Pai d),,FY2022,2661.0,7811.0
+Cash_Flow,Net Cash (use d in) / gen erated from Ope rating Activities,,FY2022,1698.0,19817.0
+Cash_Flow,B. Cash Flows fr om Investi,,FY2022,,
+Cash_Flow,"Purchase of Pr operty, Pla nt and Equipment , and Intangible Assets",,FY2022,-1.0,-30.0
+Cash_Flow,(Increase) / De crease in I nvestments (Other than Subsidiarie s),,FY2022,9.0,1061.0
+Cash_Flow,(Increase) / De crease of I nvestments in Sub sidiaries,,FY2022,,182.0
+Cash_Flow,Net Cash (use d in) / gen erated from Inve sting Activities,,FY2022,8.0,1213.0
+Cash_Flow,C. Cash Flows fr om Financ,,FY2022,,
+Cash_Flow,Repayment of Debt secu rities (including su bordinated debt securities),,FY2022,,-3075.0
+Cash_Flow,(Repayment of ) / Procee ds from intercorpo rate deposit,,FY2022,-2331.0,19654.0
+Cash_Flow,(Repayment of ) / Procee ds from Other Borr owings (Net),,FY2022,,-36950.0
+Cash_Flow,Dividend Paid (including Corporate Divide nd Tax),,FY2022,-6.0,-6.0
+Cash_Flow,Net Cash (use d in) / gen erated from Fina ncing Activities,,FY2022,-2337.0,-20377.0
+Cash_Flow,Net Increase / (Decreas e) in Cash and Ca sh Equivalents,,FY2022,-631.0,653.0
+Cash_Flow,Cash and Cas h Equivale nts at the beginn ing of the year,,FY2022,1731.0,1078.0
+Cash_Flow,Cash and Cas h Equivale nts at the end of the year,,FY2022,1100.0,1731.0
+Cash_Flow,Cash and Cash Equ ivalents a t the end of the y ear comprises o,,FY2022,,
+Cash_Flow,"Parti culars As at
+h 31, 2 022",,FY2022,31.0,2021.0
+Cash_Flow,Cash and Cas h Equivale nts at the end of,,FY2022,,
+Cash_Flow,(a) Cash on h and,,FY2022,0.0,0.0
+Cash_Flow,(b) Balances with Banks - in Current Accou nt,,FY2022,599.0,1731.0
+Cash_Flow,(c) Fixed Dep osits with original maturity p eriod less than t hree months,,FY2022,501.0,

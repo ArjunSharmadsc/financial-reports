@@ -1,0 +1,131 @@
+Statement,Line_Item,Note_No,Fiscal_Year,Current_Year_Value,Prior_Year_Value
+Balance_Sheet,ASSETS,,FY2020,,
+Balance_Sheet,(1) Financial Assets,,FY2020,,
+Balance_Sheet,(a) Cash and Cash Equivalents,2,FY2020,1078.0,9100.0
+Balance_Sheet,(b) Bank Balance other than (a) above,3,FY2020,303.0,11804.0
+Balance_Sheet,(c) Derivative Financial Instruments,4,FY2020,,2526.0
+Balance_Sheet,(d) Receivables,,FY2020,,
+Balance_Sheet,(I) Trade Receivables,5.1,FY2020,2389.0,16957.0
+Balance_Sheet,(II) Other Receivables,5.2,FY2020,,
+Balance_Sheet,(e) Loans,6,FY2020,,953720.0
+Balance_Sheet,(f) Investments,7,FY2020,355301.0,418208.0
+Balance_Sheet,(g) Other Financial Assets,8,FY2020,137.0,45962.0
+Balance_Sheet,(2) Non-Financial Assets,,FY2020,,
+Balance_Sheet,(a) Current Tax Assets (Net),10,FY2020,14454.0,13749.0
+Balance_Sheet,(b) Deferred Tax Assets (Net),11,FY2020,,1731.0
+Balance_Sheet,"(c) Property, Plant and Equipment",12,FY2020,9865.0,49900.0
+Balance_Sheet,(d) Right-of-use Assets,,FY2020,2160.0,
+Balance_Sheet,(e) Capital Work-in-Progress,,FY2020,,489.0
+Balance_Sheet,(f) Other Intangible Assets,13,FY2020,6.0,34.0
+Balance_Sheet,(g) Other Non-Financial Assets,9,FY2020,369.0,33614.0
+Balance_Sheet,TOTAL ASSETS,,FY2020,386062.0,1557794.0
+Balance_Sheet,LIABILITIES AND EQUITY,,FY2020,,
+Balance_Sheet,LIABILITIES,,FY2020,,
+Balance_Sheet,(1) Financial Liabilities,,FY2020,,
+Balance_Sheet,(a) Derivative Financial Instruments,4,FY2020,,423.0
+Balance_Sheet,(b) Payables,,FY2020,,
+Balance_Sheet,(I) Trade Payables,,FY2020,,
+Balance_Sheet,"(i) Total outstanding dues of micro enterprises and small
+enterprises",14,FY2020,,
+Balance_Sheet,"(ii) Total outstanding dues of creditors other than micro
+enterprises and small enterprises",14,FY2020,337.0,1320.0
+Balance_Sheet,(c) Debt Securities,15,FY2020,,167109.0
+Balance_Sheet,(d) Borrowings (Other than Debt Securities),16,FY2020,45351.0,937228.0
+Balance_Sheet,(e) Subordinated Liabilities,17,FY2020,36075.0,144239.0
+Balance_Sheet,(f) Lease Liabilities,,FY2020,2271.0,
+Balance_Sheet,(g) Other Financial Liabilities,18,FY2020,1324.0,3917.0
+Balance_Sheet,(2) Non-Financial Liabilities,,FY2020,,
+Balance_Sheet,(a) Provisions,19,FY2020,142.0,606.0
+Balance_Sheet,(b) Deferred Tax Liabilities (Net),11,FY2020,15716.0,
+Balance_Sheet,(c) Other Non-Financial Liabilities,20,FY2020,579.0,4244.0
+Balance_Sheet,(3) EQUITY,,FY2020,,
+Balance_Sheet,(a) Equity Share Capital,21,FY2020,50309.0,50324.0
+Balance_Sheet,(b) Other Equity,22,FY2020,233958.0,248384.0
+Balance_Sheet,TOTAL LIABILITIES AND EQUITY,,FY2020,386062.0,1557794.0
+Profit_and_Loss,Revenue from Operations,,FY2020,,
+Profit_and_Loss,(i) Interest Income,23,FY2020,32.0,562.0
+Profit_and_Loss,(ii) Dividend Income,,FY2020,91.0,84.0
+Profit_and_Loss,(iii) Rental Income,,FY2020,1436.0,1718.0
+Profit_and_Loss,(iv) Fees and Commission Income,,FY2020,5234.0,3150.0
+Profit_and_Loss,(v) Net gain on fair value changes,24,FY2020,,761.0
+Profit_and_Loss,"(vi) Net gain on derecognition of financial instruments under fair value through
+profit or loss",,FY2020,2128.0,1683.0
+Profit_and_Loss,(vii) Others,,FY2020,,107.0
+Profit_and_Loss,(I) Total Revenue from Operations,,FY2020,8921.0,8065.0
+Profit_and_Loss,(II) Other Income,25,FY2020,2525.0,1137.0
+Profit_and_Loss,(III) Total Income (I+II),,FY2020,11446.0,9202.0
+Profit_and_Loss,Expenses,,FY2020,,
+Profit_and_Loss,(i) Finance Costs,26,FY2020,8681.0,9664.0
+Profit_and_Loss,(ii) Fees and Commission Expense,,FY2020,1059.0,1115.0
+Profit_and_Loss,(iii) Net loss on derecognition of financial instruments under amortised cost,,FY2020,1211.0,
+Profit_and_Loss,(iv) Impairment on Financial Instruments (Net),28,FY2020,-217.0,198.0
+Profit_and_Loss,(v) Employee Benefits Expenses,27,FY2020,586.0,370.0
+Profit_and_Loss,"(vi) Depreciation, Amortisation and Impairment Expense","12, 13",FY2020,800.0,314.0
+Profit_and_Loss,(vii) Administrative and Other Expenses,29,FY2020,1102.0,1490.0
+Profit_and_Loss,(IV) Total Expenses (IV),,FY2020,13222.0,13151.0
+Profit_and_Loss,(V) Profit / (Loss) Before Tax from continuing operations (III-IV),,FY2020,-1776.0,-3949.0
+Profit_and_Loss,(VI) Tax Expense of continuing operation:,,FY2020,,
+Profit_and_Loss,(a) Current Tax,,FY2020,,
+Profit_and_Loss,(b) Deferred Tax,10,FY2020,-1002.0,-900.0
+Profit_and_Loss,(VII) Profit / (Loss) after tax from continuing operations (V-VI),,FY2020,-774.0,-3049.0
+Profit_and_Loss,(VIII) Profit before Tax from discontinued operations,,FY2020,3769.0,16210.0
+Profit_and_Loss,(IX) Tax Expenses of discontinued operations:,,FY2020,,
+Profit_and_Loss,(a) Current Tax,,FY2020,,
+Profit_and_Loss,(b) Deferred Tax,10,FY2020,1639.0,3694.0
+Profit_and_Loss,(X) Profit after Tax from discontinued operations (VIII-IX),,FY2020,2130.0,12516.0
+Profit_and_Loss,(XI) Total Profit Before Tax (V+VIII),,FY2020,1993.0,12261.0
+Profit_and_Loss,(XII) Total Tax:,,FY2020,,
+Profit_and_Loss,(a) Current Tax,,FY2020,,
+Profit_and_Loss,(b) Deferred Tax,10,FY2020,637.0,2794.0
+Profit_and_Loss,(XIII) Total Profit/ (Loss) after Tax (XI-XII),,FY2020,1356.0,9467.0
+Profit_and_Loss,(XIV) Other Comprehensive Income/(Expense),,FY2020,,
+Profit_and_Loss,(i) Items that will not be reclassified to Profit or Loss,,FY2020,,
+Profit_and_Loss,(a) Remeasurement Gains/ (Losses) on Defined Benefit Plan,,FY2020,46.0,-35.0
+Profit_and_Loss,"(b) Gains/ (Losses) on Equity Instruments through Other Comprehensive
+Income",,FY2020,-20621.0,-16491.0
+Profit_and_Loss,(ii) Tax related to above,10,FY2020,4778.0,3854.0
+Profit_and_Loss,Total Other Comprehensive Income/(Expense) (XIV),,FY2020,-15797.0,-12672.0
+Profit_and_Loss,(XV) Total Comprehensive Income/(Expense) (XIII+XIV),,FY2020,-14441.0,-3205.0
+Profit_and_Loss,(XVI) Earnings per Equity share (in H) (Par Value H 10/- per Equity Share),30,FY2020,,
+Profit_and_Loss,- Basic and Diluted Earnings per Equity share - continuing operations,,FY2020,-0.15,-0.61
+Profit_and_Loss,- Basic and Diluted Earnings per Equity share - discontinued operations,,FY2020,0.42,2.49
+Profit_and_Loss,"- Basic and Diluted Earnings per Equity share - continuing and discontinued
+operations",,FY2020,0.27,1.88
+Profit_and_Loss,Significant Accounting Policies and Notes to Financial Statements.,1 to 47,FY2020,,
+Cash_Flow,A.,,FY2020,,
+Cash_Flow,Profit/ (Loss) Before Tax from continuing operations,,FY2020,-1776.0,-3949.0
+Cash_Flow,Profit/ (Loss) Before Tax from discontinued operations,,FY2020,3769.0,16210.0
+Cash_Flow,Total Profit/ (Loss) Before Tax,,FY2020,1993.0,12261.0
+Cash_Flow,"Net (gain) / loss on derecognition of Property, Plant and Equipment",,FY2020,-202.0,380.0
+Cash_Flow,Interest on Income Tax Refund,,FY2020,-541.0,-1118.0
+Cash_Flow,Liabilities No Longer Required written back,,FY2020,-2059.0,-61.0
+Cash_Flow,Impairment on Financial Instruments (Net),,FY2020,8202.0,16517.0
+Cash_Flow,"Depreciation, Amortisation and Impairment",,FY2020,2565.0,4503.0
+Cash_Flow,Operating profit before working capital changes,,FY2020,9958.0,26654.0
+Cash_Flow,(Increase) / Decrease in Trade Receivables and Others Assets,,FY2020,-63885.0,67067.0
+Cash_Flow,(Increase) / Decrease in Loans Assets,,FY2020,-15925.0,128989.0
+Cash_Flow,Increase / (Decrease) in Trade Payables and Others Liabilities,,FY2020,3728.0,-79737.0
+Cash_Flow,Increase/ (Decrease) in Other Bank Balances,,FY2020,-7975.0,23414.0
+Cash_Flow,Cash generated / (used) in operations,,FY2020,-74099.0,166387.0
+Cash_Flow,Direct Taxes Paid (net of refund),,FY2020,-164.0,403.0
+Cash_Flow,Net Cash (used in) / generated from Operating Activities,,FY2020,-74263.0,166790.0
+Cash_Flow,B.,,FY2020,,
+Cash_Flow,"Purchase of Property, Plant and Equipment, and Intangible Assets",,FY2020,-75.0,-362.0
+Cash_Flow,"Proceeds from Sale of Property, Plant and Equipment",,FY2020,202.0,6367.0
+Cash_Flow,(Increase) / Decrease in Investments (Other than Subsidiaries),,FY2020,2850.0,-23310.0
+Cash_Flow,(Increase) / Decrease of Investments in Subsidiaries,,FY2020,10.0,750.0
+Cash_Flow,Net Cash (used in) / generated from Investing Activities,,FY2020,2987.0,-16555.0
+Cash_Flow,C.,,FY2020,,
+Cash_Flow,"(Repayment of) / Proceeds from issuance of Debt securities (including subordinated debt
+securities) (Net)",,FY2020,-13336.0,-10056.0
+Cash_Flow,(Repayment of) / Proceeds from Working Capital facilities (Net),,FY2020,73476.0,-91577.0
+Cash_Flow,(Repayment of) / Proceeds from Other Borrowings (Net),,FY2020,5483.0,-64608.0
+Cash_Flow,Dividend Paid (including Corporate Dividend Tax),,FY2020,-16.0,-6048.0
+Cash_Flow,Net Cash (used in) / generated from Financing Activities,,FY2020,65607.0,-172289.0
+Cash_Flow,Net Increase / (Decrease) in Cash and Cash Equivalents,,FY2020,-5669.0,-22054.0
+Cash_Flow,Cash and Cash Equivalents at the beginning of the year,,FY2020,9100.0,31154.0
+Cash_Flow,Cash and Cash Equivalents transferred under slump exchange (Refer note.32),,FY2020,-2353.0,
+Cash_Flow,Cash and Cash Equivalents at the end of the year,,FY2020,1078.0,9100.0
+Cash_Flow,Interest Received,,FY2020,27.0,562.0
+Cash_Flow,Interest Paid,,FY2020,-6952.0,-9542.0
+Cash_Flow,Dividend Received,,FY2020,91.0,84.0

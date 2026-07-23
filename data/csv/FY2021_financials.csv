@@ -1,0 +1,150 @@
+Statement,Line_Item,Note_No,Fiscal_Year,Current_Year_Value,Prior_Year_Value
+Balance_Sheet,ASSETS,,FY2021,,
+Balance_Sheet,(1) Financial Asse ts,,FY2021,,
+Balance_Sheet,(a) Cash and Cash Equiva lents,2,FY2021,1731.0,1078.0
+Balance_Sheet,(b) Bank Bal ance other th an (a) above,3,FY2021,1998.0,303.0
+Balance_Sheet,(c) Derivativ e Financial In struments,4,FY2021,,
+Balance_Sheet,(d) Receivab les,,FY2021,,
+Balance_Sheet,(I) Trade Receivables,5,FY2021,1204.0,2389.0
+Balance_Sheet,(II) Other Receivables,,FY2021,,
+Balance_Sheet,(e) Loans,6,FY2021,,
+Balance_Sheet,(f) Investme nts,7,FY2021,61185.0,355301.0
+Balance_Sheet,(g) Other Fin ancial Assets,8,FY2021,496.0,137.0
+Balance_Sheet,(2) Non-Financial Assets,,FY2021,,
+Balance_Sheet,(a) Current T ax Assets (Ne t),10,FY2021,7488.0,14454.0
+Balance_Sheet,(b) Deferred Tax Assets (N et),11,FY2021,,
+Balance_Sheet,"(c) Property, Plant and Eq uipment",12,FY2021,9655.0,9865.0
+Balance_Sheet,(d) Right-of- use Assets,,FY2021,1775.0,2160.0
+Balance_Sheet,(e) Capital W ork-in-Progre ss,,FY2021,,
+Balance_Sheet,(f) Other Int angible Asset s,13,FY2021,4.0,6.0
+Balance_Sheet,(g) Other No n-Financial A ssets,9,FY2021,213.0,369.0
+Balance_Sheet,TOTAL ASSETS,,FY2021,85749.0,386062.0
+Balance_Sheet,LIABILITIES A ND EQUITY,,FY2021,,
+Balance_Sheet,LIABILITIES,,FY2021,,
+Balance_Sheet,(1) Financial Liab ilities,,FY2021,,
+Balance_Sheet,(a) Derivativ e Financial In struments,4,FY2021,,
+Balance_Sheet,(b) Payables,,FY2021,,
+Balance_Sheet,(i) Trade Payables,,FY2021,,
+Balance_Sheet,(ii) Total outstanding dues of micro ent erprises an d small enterprises,14,FY2021,14.0,
+Balance_Sheet,"(iii) Total
+small outstanding
+enterprises dues of creditors other than micro enterprises and",14,FY2021,367.0,337.0
+Balance_Sheet,(c) Debt Sec urities,15,FY2021,,
+Balance_Sheet,(d) Borrowin gs (Other tha n Debt Securities),16,FY2021,28055.0,45351.0
+Balance_Sheet,(e) Subordin ated Liabilitie s,17,FY2021,33000.0,36075.0
+Balance_Sheet,(f) Lease Lia bilities,,FY2021,1994.0,2271.0
+Balance_Sheet,(g) Other Fin ancial Liabili ties,18,FY2021,18351.0,1324.0
+Balance_Sheet,(2) Non-Financial Liabilities,,FY2021,,
+Balance_Sheet,(a) Provision s,19,FY2021,51.0,142.0
+Balance_Sheet,(b) Deferred Tax Liabilitie s (Net),11,FY2021,,15716.0
+Balance_Sheet,(c) Other No n-Financial L iabilities,20,FY2021,195.0,579.0
+Balance_Sheet,(3) Equity,,FY2021,,
+Balance_Sheet,(a) Equity Sh are Capital,21,FY2021,50309.0,50309.0
+Balance_Sheet,(b) Other Eq uity,22,FY2021,-46587.0,233958.0
+Balance_Sheet,TOTAL LIABILI TIES AND EQU ITY,,FY2021,85749.0,386062.0
+Profit_and_Loss,Revenue from Operations,,FY2021,,
+Profit_and_Loss,(i) Interest Income,23,FY2021,,28.0
+Profit_and_Loss,(ii) Dividend Income,,FY2021,,
+Profit_and_Loss,(iii) Rental Income,,FY2021,,1391.0
+Profit_and_Loss,(iv) Fees and Commission Inc ome,,FY2021,,2494.0
+Profit_and_Loss,(v) Net gain on fair value ch anges,24,FY2021,,
+Profit_and_Loss,"(vi) Net gain on derecognitio
+profi t or loss n of fi nancial instru ments under fa ir value thr",ough,FY2021,,3.0
+Profit_and_Loss,(vii) Net gain on derecognition of fi nancial instrum ents under amo rtised cost,,FY2021,,274.0
+Profit_and_Loss,(I) Total Revenue from Operati ons,,FY2021,,4190.0
+Profit_and_Loss,(II) Other Income,25,FY2021,,811.0
+Profit_and_Loss,(III) Total Income (I+II),,FY2021,,5001.0
+Profit_and_Loss,Expenses,,FY2021,,
+Profit_and_Loss,(i) Finance Costs,26,FY2021,,3282.0
+Profit_and_Loss,(ii) Fees and Commission Ex pense,,FY2021,,1178.0
+Profit_and_Loss,(iii) Net loss on derecognition of fi nancial instrume nts under amo rtised cost,,FY2021,,
+Profit_and_Loss,(iv) Impairment on Financial Instruments (Net),28,FY2021,,1472.0
+Profit_and_Loss,(v) Employee Benefi ts Expen ses,27,FY2021,,813.0
+Profit_and_Loss,"(vi) Depreciation, Amortisatio n and Impairment Ex pense","12, 13",FY2021,,773.0
+Profit_and_Loss,(vii) Administrative and Other Expenses,29,FY2021,,1000.0
+Profit_and_Loss,(IV) Total Expenses (IV),,FY2021,,8518.0
+Profit_and_Loss,"(V) Profi t / (Loss) Before Exc
+(III-IV) eptional items and Ta x from continui ng operatio",ns,FY2021,,-3517.0
+Profit_and_Loss,(VI) Exceptional items,,FY2021,,310455.0
+Profit_and_Loss,(VII) Profi t / (Loss) Before Tax from continuing oper ations (V-VI),,FY2021,,-313972.0
+Profit_and_Loss,(VIII) Tax Expense of continuin g operation:,,FY2021,,
+Profit_and_Loss,(a) Current Tax,,FY2021,,
+Profit_and_Loss,(b) Income Tax in respe ct of earlier year,,FY2021,,-54.0
+Profit_and_Loss,(c) Deferred Tax,,FY2021,,-19446.0
+Profit_and_Loss,(IX) Profi t / (Loss) after tax fro m continuing operati ons (VII-VIII),,FY2021,,-294472.0
+Profit_and_Loss,(X) Profi t before Tax from dis continued operations,,FY2021,,
+Profit_and_Loss,(XI) Tax Expenses of discontin ued operations:,,FY2021,,
+Profit_and_Loss,(a) Current Tax,,FY2021,,
+Profit_and_Loss,(b) Income Tax in respe ct of earlier year,,FY2021,,
+Profit_and_Loss,(c) Deferred Tax,,FY2021,,
+Profit_and_Loss,(XII) Profi t after Tax from disc ontinued operations ( X-XI),,FY2021,,
+Profit_and_Loss,(XIII) Total Profi t Before Tax (VI I+X),,FY2021,,-313972.0
+Profit_and_Loss,(XIV) Total Tax:,,FY2021,,
+Profit_and_Loss,(a) Current Tax,,FY2021,,
+Profit_and_Loss,(b) Income Tax in respe ct of earlier year,,FY2021,,-54.0
+Profit_and_Loss,(c) Deferred Tax,,FY2021,,-19446.0
+Profit_and_Loss,(XV) Total Profi t/ (Loss) after T ax (XIII-XIV),,FY2021,,-294472.0
+Profit_and_Loss,(XVI) Other Comprehensive Inco me/(Expense),,FY2021,,
+Profit_and_Loss,(i) Items that will not b e reclassifi ed to Profi t or Loss,,FY2021,,
+Profit_and_Loss,(a) Remeasurement G ains/ (Losses) on Defi ned Benefi t Pla n,,FY2021,,29.0
+Profit_and_Loss,"(b) Gains/ (Losses) o
+Income n Equity Instruments through Othe r Comprehe",nsive,FY2021,,17627.0
+Profit_and_Loss,(ii) Tax related to above,,FY2021,,-3729.0
+Profit_and_Loss,Total Other Comprehensive Income/(Expense) (XV I),,FY2021,,13927.0
+Profit_and_Loss,(XVII) Total Comprehensive Incom e/(Expense) (XV+XVI),,FY2021,,-280545.0
+Profit_and_Loss,(XVIII) Earnings per Equity share ( in `) (Par Value ` 10/ - per Equity Sha re),30,FY2021,,
+Profit_and_Loss,- Basic and Diluted Earni ngs per Equity share - continuing op erations,,FY2021,,-58.53
+Profit_and_Loss,- Basic and Diluted Earni ngs per Equity share - discontinued operations,,FY2021,,
+Profit_and_Loss,"- Basic and Diluted Earni
+operations ngs per Equity share - continuing an d discontin",ued,FY2021,,-58.53
+Cash_Flow,A. Cash Flows fr,,FY2021,,
+Cash_Flow,Profi t/ (Loss) Before Tax from continui ng operations,,FY2021,-313972.0,-1776.0
+Cash_Flow,Profi t/ (Loss ) Before Tax from disco ntinued operation,,FY2021,,3769.0
+Cash_Flow,Total Profi t/ ( Loss) Before Tax,,FY2021,-313972.0,1993.0
+Cash_Flow,Adjustmen,,FY2021,,
+Cash_Flow,"Net (gain) / loss on derecognition of Property, Plant",,FY2021,,-202.0
+Cash_Flow,Interest on Income Tax Refund,,FY2021,-791.0,-541.0
+Cash_Flow,Liabilities No Longer Required wr itten back,,FY2021,-7.0,-2059.0
+Cash_Flow,Impairmen t on Financial Instrume nts (Net),,FY2021,1472.0,8202.0
+Cash_Flow,Exceptiona l items,,FY2021,310455.0,
+Cash_Flow,"Depreciati on, Amortisation and Im pairment",,FY2021,773.0,2565.0
+Cash_Flow,Operating pr ofi t before working capita l changes,,FY2021,-2070.0,9958.0
+Cash_Flow,Changes in W,,FY2021,,
+Cash_Flow,Adjustmen,,FY2021,,
+Cash_Flow,(Increase) / Decrease in Trade Rec eivables and Oth ers Assets,,FY2021,-591.0,-63885.0
+Cash_Flow,(Increase) / Decrease in Loans As,,FY2021,,-15925.0
+Cash_Flow,Increase / (Decrease) in Trade Pay ables and Others Liabilities,,FY2021,16362.0,3728.0
+Cash_Flow,Increase/ ( Decrease) in Other Ban k Balances,,FY2021,-1695.0,-7975.0
+Cash_Flow,Cash generat ed / (used) in operations,,FY2021,12006.0,-74099.0
+Cash_Flow,Direct Tax es Paid (net of refund),,FY2021,7811.0,-164.0
+Cash_Flow,Net Cash (us ed in) / generated from O perating Activities,,FY2021,19817.0,-74263.0
+Cash_Flow,B. Cash Flows fr,,FY2021,,
+Cash_Flow,"Purchase of Property, Plant and E quipment, and In tangible Assets",,FY2021,-30.0,-75.0
+Cash_Flow,"Proceeds f rom Sale of Property, P lant and Equipme",,FY2021,,202.0
+Cash_Flow,(Increase) / Decrease in Investme nts (Other than Su bsidiaries),,FY2021,1061.0,2850.0
+Cash_Flow,(Increase) / Decrease of Investme nts in Subsidiarie s,,FY2021,182.0,10.0
+Cash_Flow,Net Cash (us ed in) / generated from I nvesting Activities,,FY2021,1213.0,2987.0
+Cash_Flow,C. Cash Flows fr,,FY2021,,
+Cash_Flow,Proceeds f rom issuance of Debt s ecurities (includin,,FY2021,,11576.0
+Cash_Flow,Repaymen t of Debt securities (inc luding subordinat ed debt securities),,FY2021,-3075.0,-24912.0
+Cash_Flow,(Repayme nt of) / Proceeds from W orking Capital fac,,FY2021,,73476.0
+Cash_Flow,Proceeds f rom intercorporate dep osit,,FY2021,33375.0,87081.0
+Cash_Flow,Repaymen t of intercorporate depo sit,,FY2021,-13721.0,-60469.0
+Cash_Flow,Proceeds f,,FY2021,,35000.0
+Cash_Flow,(Repayme nt of) / Proceeds from O ther Borrowings ( Net),,FY2021,-36950.0,-56129.0
+Cash_Flow,Dividend P aid (including Corporat e Dividend Tax),,FY2021,-6.0,-16.0
+Cash_Flow,Net Cash (us ed in) / generated from F inancing Activities,,FY2021,-20377.0,65607.0
+Cash_Flow,Net Increase / (Decrease) in Cash and Cash Equivalents,,FY2021,653.0,-5669.0
+Cash_Flow,Cash and Ca sh Equivalents at the beg inning of the year,,FY2021,1078.0,9100.0
+Cash_Flow,Cash and Cash Equivalents transf erred under slump,,FY2021,0.32,-2353.0
+Cash_Flow,Cash and Ca sh Equivalents at the end of the year,,FY2021,1731.0,1078.0
+Cash_Flow,Net Cash (us ed in) / generated from O perating Activities,,FY2021,,
+Cash_Flow,Interest Re ceived,,FY2021,28.0,27.0
+Cash_Flow,Interest Pa id,,FY2021,-4043.0,-6952.0
+Cash_Flow,Dividend R,,FY2021,,91.0
+Cash_Flow,"Components of Cash and Cash Equiva lents: As
+31st Ma at
+rch 2021",,FY2021,31.0,2020.0
+Cash_Flow,Cash and Ca sh Equivalents at the e,,FY2021,,
+Cash_Flow,(a) Cash o,,FY2021,,1.0
+Cash_Flow,(b) Balanc es with Banks - in Curr ent Account,,FY2021,1731.0,1077.0
